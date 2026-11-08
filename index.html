@@ -23,14 +23,15 @@
 <section id="tracker" class="signup" aria-labelledby="t-h">
   <h2 id="t-h">Free 30-day habit tracker</h2>
   <p>A one-page, printable tracker for one small habit at a time. Add your email and we will send the link, plus occasional new Shorts and notes. Unsubscribe any time.</p>
-  <!-- PLACEHOLDER: replace the action URL with your email provider's form endpoint (see README.md). Nothing is collected until you do. -->
-  <form action="https://example.invalid/REPLACE-WITH-PROVIDER-FORM-URL" method="post">
-    <label class="visually-hidden" for="email">Email address</label>
-    <input id="email" type="email" name="email_address" placeholder="you@example.com" autocomplete="email" required>
+  <form action="https://db433956.sibforms.com/serve/MUIFAEQsqnGXK4loHUiWDEbDyG_PHJk5FLrr4ttWzhG1gh_NPSyo8sd4NdxitrGRzRQHQog5RdqVFYVFre0MD_F441yhbIUc7-IOln6kuDgX6CgERlHPxkNYlq7U6ujo61aas7Xtdsbfm9ADe0N1IVRzxPJo4DY92EB7fu38fVLaOcq48tso1fQ3o8UGlv9ajTlZfkJykOkAki7uLw==" method="post">
+    <label class="visually-hidden" for="EMAIL">Email address</label>
+    <input id="EMAIL" type="email" name="EMAIL" placeholder="you@example.com" autocomplete="email" required>
+    <!-- Brevo spam trap: leave empty and hidden -->
+    <input type="text" name="email_address_check" value="" class="trap" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <input type="hidden" name="locale" value="en">
     <button type="submit">Send me the tracker</button>
   </form>
-  <p class="small">No spam. Your email is used only for the tracker and channel updates. See the <a href="privacy.html">privacy policy</a>.</p>
-  <p><a href="../tracker/">Open the tracker page</a></p>
+  <p class="small">No spam. You will get a confirmation email first. Your email is used only for the tracker and channel updates. See the <a href="privacy.html">privacy policy</a>.</p>
 </section>
 
 <section aria-labelledby="p-h">
