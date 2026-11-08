@@ -24,7 +24,8 @@ input[type=email]{padding:.8rem;font-size:1rem;border:3px solid var(--ink);borde
 button,.btn{background:var(--sun);color:#26303F;border:3px solid var(--ink);border-radius:8px;padding:.8rem 1.2rem;font:bold 1rem "Arial Black",sans-serif;cursor:pointer;text-decoration:none;display:inline-block;text-align:center}
 button:hover,.btn:hover{filter:brightness(1.08)}
 :focus-visible{outline:3px solid var(--sky);outline-offset:2px}
-.g-recaptcha{max-width:100%;overflow:hidden}
+.g-recaptcha{max-width:100%;min-height:78px;transform-origin:0 0}
+@media(max-width:23rem){.g-recaptcha{transform:scale(.88)}}
 .small{font-size:.85rem;color:var(--muted)}
 .visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 .grid{display:grid;gap:1rem;grid-template-columns:1fr}
@@ -40,6 +41,6 @@ footer{background:var(--ink);color:#F5EEDD;padding:2rem 0;text-align:center;font
 footer .small{color:#c9c2b0}
 footer .social a{font-weight:bold;padding:.2rem .3rem}
 @media(min-width:44rem){.grid.two,.grid.four{grid-template-columns:1fr 1fr}
-.hero{padding:4rem 0}.signup form{flex-direction:row}.signup input{flex:1}}
+.hero{padding:4rem 0}.signup form{flex-direction:row;flex-wrap:wrap;align-items:stretch}.signup input[type=email]{flex:1 1 16rem}.signup button{flex:0 0 auto}.signup .g-recaptcha{order:3;flex:0 0 100%}}
 @media(min-width:44rem){.grid.three{grid-template-columns:repeat(3,1fr)}}
 @media(min-width:62rem){.grid.four{grid-template-columns:repeat(4,1fr)}}
