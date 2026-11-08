@@ -24,6 +24,7 @@ input[type=email]{padding:.8rem;font-size:1rem;border:3px solid var(--ink);borde
 button,.btn{background:var(--sun);color:#26303F;border:3px solid var(--ink);border-radius:8px;padding:.8rem 1.2rem;font:bold 1rem "Arial Black",sans-serif;cursor:pointer;text-decoration:none;display:inline-block;text-align:center}
 button:hover,.btn:hover{filter:brightness(1.08)}
 :focus-visible{outline:3px solid var(--sky);outline-offset:2px}
+.g-recaptcha{max-width:100%;overflow:hidden}
 .small{font-size:.85rem;color:var(--muted)}
 .visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 .grid{display:grid;gap:1rem;grid-template-columns:1fr}

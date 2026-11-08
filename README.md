@@ -7,7 +7,7 @@ The form in `index.html` posts to a Brevo subscription form (Marketing > Forms >
 
 After submitting, visitors see Brevo's default pages. To use pages on this site, set them in the form's Settings step (confirmation page after submitting, and after clicking the validation link).
 
-If spam signups appear, add a reCAPTCHA v2 block in the Brevo form (Google keys) and add its script and site key to the form here.
+reCAPTCHA v2 (checkbox) is enabled: the script is in the `<head>` and the `g-recaptcha` div with the site key is in the form in `index.html`. The secret key lives only in the Brevo form settings. To change keys, update both places. Google is disclosed in `privacy.html`.
 
 ## Before launch
 - Verify your phone in Brevo so confirmation emails can send.
