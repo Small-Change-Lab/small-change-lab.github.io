@@ -19,7 +19,7 @@ h2{font-size:1.6rem}
 .hero p{max-width:34rem;margin:0 auto 1rem}
 .brand{font-weight:bold;letter-spacing:.04em;text-transform:uppercase;font-size:.85rem}
 .signup{background:var(--card);border:4px solid var(--ink);border-radius:12px;padding:1.5rem;margin:2rem 0}
-.signup form{display:flex;flex-direction:column;gap:1rem;max-width:26rem;margin:1.25rem 0 .5rem}
+.signup form{display:flex;flex-direction:column;gap:.9rem;width:100%;max-width:304px;margin:1.25rem 0 .75rem}
 .signup button{width:100%;padding:1rem 1.2rem}
 .signup input[type=email]{width:100%;box-sizing:border-box}
 input[type=email]{padding:.8rem;font-size:1rem;border:3px solid var(--ink);border-radius:8px;background:#fff;color:#26303F}
@@ -27,7 +27,7 @@ button,.btn{background:var(--sun);color:#26303F;border:3px solid var(--ink);bord
 button:hover,.btn:hover{filter:brightness(1.08)}
 :focus-visible{outline:3px solid var(--sky);outline-offset:2px}
 .g-recaptcha{max-width:100%;min-height:78px;transform-origin:0 0}
-@media(max-width:23rem){.g-recaptcha{transform:scale(.88)}}
+@media(max-width:26rem){.g-recaptcha{transform:scale(.9)}}
 .small{font-size:.85rem;color:var(--muted)}
 .visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 .grid{display:grid;gap:1rem;grid-template-columns:1fr}
@@ -43,6 +43,10 @@ footer{background:var(--ink);color:#F5EEDD;padding:2rem 0;text-align:center;font
 footer .small{color:#c9c2b0}
 footer .social a{font-weight:bold;padding:.2rem .3rem}
 @media(min-width:44rem){.grid.two,.grid.four{grid-template-columns:1fr 1fr}
-.hero{padding:4rem 0}}
+.hero{padding:4rem 0}
+.signup{display:grid;grid-template-columns:1fr 304px;column-gap:2.5rem;align-items:center;padding:2rem}
+.signup>*{grid-column:1}
+.signup>form{grid-column:2;grid-row:1/span 3;margin:0}
+.signup h2{margin-top:0}}
 @media(min-width:44rem){.grid.three{grid-template-columns:repeat(3,1fr)}}
 @media(min-width:62rem){.grid.four{grid-template-columns:repeat(4,1fr)}}
