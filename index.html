@@ -6,22 +6,53 @@
 <title>Small Change Lab — small habits, explained by science</title>
 <meta name="description" content="Short animated explainers on money, mind, body and readiness habits, with cited sources. Free 30-day habit tracker.">
 <link rel="icon" href="assets/dp.svg" type="image/svg+xml">
-<link rel="stylesheet" href="styles.css?v=5">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Instrument+Sans:wght@400;600&display=swap">
+<link rel="stylesheet" href="styles.css?v=9">
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
-<body>
-<header class="hero"><div class="wrap">
-  <img src="assets/dp.svg" alt="Inch, the paper-cutout snail mascot of Small Change Lab" width="120" height="120">
-  <p class="brand">Small Change Lab</p>
-  <h1>Small habits, explained by science, practiced in public.</h1>
-  <p>One small habit, one cited fact, one thing to try today. Animated Shorts on money, mind, body and being ready.</p>
-  <a class="btn" href="tracker.html">Use the free 30-day tracker</a> <a class="btn" href="assets/habit-tracker-30day.pdf">Printable PDF</a>
-  <p class="small" style="margin-top:1rem">Watch: <a href="https://www.youtube.com/@small_change_lab" rel="noopener" target="_blank">YouTube</a> · <a href="https://www.tiktok.com/@small_change_lab" rel="noopener" target="_blank">TikTok</a> · <a href="https://www.instagram.com/small_change_lab/" rel="noopener" target="_blank">Instagram</a></p>
-  <img class="banner" src="assets/banner.svg" alt="" width="1280" height="720">
-</div></header>
+<body class="home">
+<header class="hero">
+  <nav class="topbar wrap" aria-label="Main">
+    <a class="wordmark" href="./"><span class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i></span>Small Change Lab</a>
+    <span class="navlinks"><a href="#pillars">Pillars</a><a href="#series">Series</a><a href="#tracker">Tracker</a></span>
+    <a class="btn btn-sm" href="#newsletter">Subscribe</a>
+  </nav>
+  <div class="wrap hero-body">
+    <img src="assets/dp.svg" alt="Inch, the paper-cutout snail mascot of Small Change Lab" width="120" height="120">
+    <p class="brand">Small Change Lab</p>
+    <h1>Small habits, explained by <mark class="hl">science</mark>, practiced in public.</h1>
+    <p class="lede">One small habit, one cited fact, one thing to try today. Animated Shorts on money, mind, body and being ready.</p>
+    <p class="ctas"><a class="btn" href="tracker.html">Use the free 30-day tracker</a> <a class="btn btn-ghost" href="assets/habit-tracker-30day.pdf">Printable PDF</a></p>
+    <p class="chips"><span>Watch:</span> <a class="chip" href="https://www.youtube.com/@small_change_lab" rel="noopener" target="_blank">YouTube</a> <a class="chip" href="https://www.tiktok.com/@small_change_lab" rel="noopener" target="_blank">TikTok</a> <a class="chip" href="https://www.instagram.com/small_change_lab/" rel="noopener" target="_blank">Instagram</a></p>
+  </div>
+  <img class="banner" src="assets/banner.svg?v=3" alt="" width="2560" height="1303">
+</header>
 
-<main class="wrap">
+<main>
+<div class="band night">
+  <svg class="edge edge-top" viewBox="0 0 1440 48" preserveAspectRatio="none" aria-hidden="true"><path d="M0 48V30C220 4 470 0 720 16S1180 40 1440 10V48Z"/></svg>
+  <div class="decor" aria-hidden="true">
+    <svg class="planet float" viewBox="0 0 200 200"><ellipse cx="100" cy="104" rx="96" ry="24" fill="none" stroke="#7FB3D5" stroke-width="6" opacity=".55"/><circle cx="100" cy="100" r="56" fill="#F2B632"/><path d="M100 44a56 56 0 0 0 0 112a70 70 0 0 1 0-112z" fill="#fff" opacity=".18"/><circle cx="82" cy="86" r="9" fill="#26303F" opacity=".18"/><circle cx="118" cy="120" r="6" fill="#26303F" opacity=".18"/><path d="M8 110c30 14 154 14 184 0" fill="none" stroke="#7FB3D5" stroke-width="6" opacity=".9"/></svg>
+    <svg class="moon float slow" viewBox="0 0 60 60"><circle cx="30" cy="30" r="22" fill="#3FA37A"/><path d="M30 8a22 22 0 0 0 0 44a28 28 0 0 1 0-44z" fill="#fff" opacity=".2"/></svg>
+    <svg class="spark s1" viewBox="0 0 20 20"><path d="M10 0l2.4 7.6L20 10l-7.6 2.4L10 20l-2.4-7.6L0 10l7.6-2.4z" fill="#F5EEDD"/></svg>
+    <svg class="spark s2" viewBox="0 0 20 20"><path d="M10 0l2.4 7.6L20 10l-7.6 2.4L10 20l-2.4-7.6L0 10l7.6-2.4z" fill="#F2B632"/></svg>
+    <i class="star" style="top:18%;left:8%"></i><i class="star" style="top:42%;left:3%"></i><i class="star" style="top:12%;left:46%"></i><i class="star" style="top:70%;left:94%"></i><i class="star" style="top:86%;left:12%"></i><i class="star" style="top:58%;left:52%"></i>
+  </div>
+  <div class="wrap">
+    <section class="how" aria-labelledby="h-h">
+      <p class="kicker">How it works</p>
+      <h2 id="h-h">Every Short, in three small steps</h2>
+      <ol class="steps">
+        <li><span class="num n1">1</span><h3>One small habit</h3><p>Each Short focuses on a single everyday habit.</p></li>
+        <li><span class="num n2">2</span><h3>One cited fact</h3><p>A source card with a stated limit of the finding.</p></li>
+        <li><span class="num n3">3</span><h3>One thing to try today</h3><p>Something small enough to start right away.</p></li>
+      </ol>
+    </section>
+
 <section id="newsletter" class="signup" aria-labelledby="t-h">
+  <p class="kicker">Newsletter</p>
   <h2 id="t-h">One small habit, by email</h2>
   <p>New Shorts, the cited fact behind each one, and one thing to try today. Occasional, short and free. Unsubscribe any time.</p>
   <form action="https://db433956.sibforms.com/serve/MUIFAEQsqnGXK4loHUiWDEbDyG_PHJk5FLrr4ttWzhG1gh_NPSyo8sd4NdxitrGRzRQHQog5RdqVFYVFre0MD_F441yhbIUc7-IOln6kuDgX6CgERlHPxkNYlq7U6ujo61aas7Xtdsbfm9ADe0N1IVRzxPJo4DY92EB7fu38fVLaOcq48tso1fQ3o8UGlv9ajTlZfkJykOkAki7uLw==" method="post">
@@ -35,48 +66,86 @@
   </form>
   <p class="small">No spam. You will get a confirmation email first. Your email is used only for channel updates. This form is protected by reCAPTCHA; Google's <a href="https://policies.google.com/privacy" rel="noopener">privacy policy</a> and terms apply. See our <a href="privacy.html">privacy policy</a>.</p>
 </section>
+  </div>
+  <svg class="edge edge-bottom" viewBox="0 0 1440 48" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0V22C260 46 520 48 760 30S1200 4 1440 30V0Z"/></svg>
+</div>
 
-<section aria-labelledby="tr-h">
-  <h2 id="tr-h">Free 30-day habit tracker</h2>
-  <p>A one-page tracker for one small habit at a time. No email needed. <a href="tracker.html">Use the online tracker</a> (saved in your browser) or <a href="assets/habit-tracker-30day.pdf">download the printable PDF</a>.</p>
+<div class="wrap">
+<section id="tracker" class="after-band" aria-labelledby="tr-h">
+  <div class="feature">
+    <div>
+      <p class="kicker">Free tool</p>
+      <h2 id="tr-h">Free 30-day habit tracker</h2>
+      <p>A one-page tracker for one small habit at a time. No email needed. <a href="tracker.html">Use the online tracker</a> (saved in your browser) or <a href="assets/habit-tracker-30day.pdf">download the printable PDF</a>.</p>
+      <p class="ctas"><a class="btn" href="tracker.html">Open the tracker</a> <a class="btn btn-ghost" href="assets/habit-tracker-30day.pdf">Printable PDF</a></p>
+    </div>
+    <div class="mini" aria-hidden="true">
+      <p class="mini-title">Day 1–30</p>
+      <div class="mini-grid"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="today"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+  </div>
 </section>
 
-<section aria-labelledby="p-h">
+<section id="pillars" aria-labelledby="p-h">
+  <p class="kicker">What we cover</p>
   <h2 id="p-h">The four pillars</h2>
   <div class="grid four">
-    <div class="pillar p-money"><h3><span class="dot"></span>Money</h3><p>Spending, saving and small financial habits.</p><span class="tag">NOT FINANCIAL ADVICE</span></div>
-    <div class="pillar p-mind"><h3><span class="dot"></span>Mind</h3><p>Focus, attention and how habits actually form.</p></div>
-    <div class="pillar p-body"><h3><span class="dot"></span>Body</h3><p>Sleep, movement and everyday routines.</p><span class="tag">NOT MEDICAL ADVICE</span></div>
-    <div class="pillar p-ready"><h3><span class="dot"></span>Ready</h3><p>Being prepared for ordinary emergencies.</p><span class="tag">FOLLOW LOCAL GUIDANCE</span></div>
+    <div class="pillar p-money"><span class="badge" aria-hidden="true"></span><h3>Money</h3><p>Spending, saving and small financial habits.</p><span class="tag">NOT FINANCIAL ADVICE</span></div>
+    <div class="pillar p-mind"><span class="badge" aria-hidden="true"></span><h3>Mind</h3><p>Focus, attention and how habits actually form.</p></div>
+    <div class="pillar p-body"><span class="badge" aria-hidden="true"></span><h3>Body</h3><p>Sleep, movement and everyday routines.</p><span class="tag">NOT MEDICAL ADVICE</span></div>
+    <div class="pillar p-ready"><span class="badge" aria-hidden="true"></span><h3>Ready</h3><p>Being prepared for ordinary emergencies.</p><span class="tag">FOLLOW LOCAL GUIDANCE</span></div>
   </div>
 </section>
+</div>
 
-<section aria-labelledby="s-h">
-  <h2 id="s-h">The series</h2>
-  <div class="grid three">
-    <div class="series"><h3>Habit Myths</h3><p>The myth, then what the research says, then the real habit.</p></div>
-    <div class="series"><h3>The Numbers</h3><p>One stat brought to life with a worked, labelled-illustrative example.</p></div>
-    <div class="series"><h3>30-Day Log</h3><p>My own experiments and results: my numbers, not a study.</p></div>
+<div class="band night">
+  <svg class="edge edge-top" viewBox="0 0 1440 48" preserveAspectRatio="none" aria-hidden="true"><path d="M0 48V14C300 40 560 44 800 26S1200 0 1440 22V48Z"/></svg>
+  <div class="decor" aria-hidden="true">
+    <svg class="ringed float slow" viewBox="0 0 120 120"><circle cx="60" cy="60" r="34" fill="#E2553F"/><path d="M60 26a34 34 0 0 0 0 68a42 42 0 0 1 0-68z" fill="#fff" opacity=".18"/><circle cx="60" cy="60" r="50" fill="none" stroke="#F5EEDD" stroke-width="3" stroke-dasharray="4 10" opacity=".45"/></svg>
+    <svg class="spark s3" viewBox="0 0 20 20"><path d="M10 0l2.4 7.6L20 10l-7.6 2.4L10 20l-2.4-7.6L0 10l7.6-2.4z" fill="#7FB3D5"/></svg>
+    <i class="star" style="top:20%;left:30%"></i><i class="star" style="top:75%;left:6%"></i><i class="star" style="top:30%;left:70%"></i><i class="star" style="top:82%;left:60%"></i>
   </div>
-</section>
+  <div class="wrap">
+    <section id="series" aria-labelledby="s-h">
+      <p class="kicker">Formats</p>
+      <h2 id="s-h">The series</h2>
+      <div class="grid three">
+        <div class="series"><span class="label">Series 01</span><h3>Habit Myths</h3><p>The myth, then what the research says, then the real habit.</p></div>
+        <div class="series"><span class="label">Series 02</span><h3>The Numbers</h3><p>One stat brought to life with a worked, labelled-illustrative example.</p></div>
+        <div class="series"><span class="label">Series 03</span><h3>30-Day Log</h3><p>My own experiments and results: my numbers, not a study.</p></div>
+      </div>
+    </section>
+  </div>
+  <svg class="edge edge-bottom" viewBox="0 0 1440 48" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0V30C240 6 520 2 760 20S1180 46 1440 18V0Z"/></svg>
+</div>
 
-<section id="about" class="disclaimer" aria-labelledby="d-h">
+<div class="wrap">
+<section id="about" class="disclaimer after-band" aria-labelledby="d-h">
+  <p class="kicker">Fine print</p>
   <h2 id="d-h">Disclaimer and sources policy</h2>
-  <p><strong>Educational content, not advice.</strong> Nothing here is financial, medical or professional advice. For money, health or safety decisions, talk to a qualified professional and follow local guidance.</p>
-  <p><strong>Sources.</strong> Every Short shows a cited source card with a stated limit of the finding. Illustrative numbers are labelled as illustrative. 30-Day Log results are one person's numbers, not studies.</p>
-  <p><strong>Affiliate links</strong> are always disclosed where they appear.</p>
+  <div class="disc-grid">
+    <p><strong>Educational content, not advice.</strong> Nothing here is financial, medical or professional advice. For money, health or safety decisions, talk to a qualified professional and follow local guidance.</p>
+    <p><strong>Sources.</strong> Every Short shows a cited source card with a stated limit of the finding. Illustrative numbers are labelled as illustrative. 30-Day Log results are one person's numbers, not studies.</p>
+    <p><strong>Affiliate links</strong> are always disclosed where they appear.</p>
+  </div>
 </section>
+</div>
 </main>
 
-<footer><div class="wrap">
-  <p>Small Change Lab · @small_change_lab</p>
+<footer><div class="wrap foot">
+  <div class="foot-brand">
+    <img src="assets/dp.svg" alt="" width="44" height="44">
+    <p>Small Change Lab · @small_change_lab</p>
+  </div>
   <p class="social">
     <a href="https://www.youtube.com/@small_change_lab" rel="noopener" target="_blank">YouTube</a> ·
     <a href="https://www.tiktok.com/@small_change_lab" rel="noopener" target="_blank">TikTok</a> ·
     <a href="https://www.instagram.com/small_change_lab/" rel="noopener" target="_blank">Instagram</a>
   </p>
-  <p class="small"><a href="privacy.html">Privacy policy</a> · <a href="#about">Disclaimer and sources</a></p>
-  <p class="small">© Small Change Lab. Educational content only.</p>
+  <div class="foot-legal">
+    <p class="small"><a href="privacy.html">Privacy policy</a> · <a href="#about">Disclaimer and sources</a></p>
+    <p class="small">© Small Change Lab. Educational content only.</p>
+  </div>
 </div></footer>
 </body>
 </html>
