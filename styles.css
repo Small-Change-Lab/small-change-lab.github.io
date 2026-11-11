@@ -175,3 +175,7 @@ footer .social a{font-weight:bold;padding:.2rem .3rem}
 .home .foot .social{text-align:center}.home .foot-legal{text-align:right}}
 @media(min-width:62rem){.home .grid.four{grid-template-columns:repeat(4,1fr)}}
 @media(min-width:44rem) and (max-width:62rem){.home .topsocial{display:none}}
+/* hero fills the first screen; content centred under the nav */
+.home .hero{min-height:100vh;min-height:100svh;display:flex;flex-direction:column}
+.home .hero .topbar{width:100%}
+.home .hero .hero-body{flex:1;width:100%;align-content:center}
